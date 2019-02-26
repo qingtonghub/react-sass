@@ -1,0 +1,20 @@
+{
+  "env": {
+    "development": {
+      "plugins": ["react-hot-loader/babel"]
+    },
+    "production": {
+      "compact": true
+    }
+  },
+  "presets": ["react-app"],
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": "css"
+      }
+    ]
+  ]
+}
