@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import { AppContainer } from 'react-hot-loader';
 import * as serviceWorker from './serviceWorker';
+import './styles/app.global.scss';
 
 ReactDOM.render(
   <AppContainer>
