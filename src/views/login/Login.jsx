@@ -4,6 +4,8 @@
 import React, { Component, PureComponent } from 'react';
 import '../../assets/css/login.scss';
 
+import Button from '../../components/Button';
+
 const imgs = {
   bg: require('../../assets/imgs/bg-01.jpg'),
 }
@@ -20,6 +22,7 @@ class Login extends Component {
     return(
       <Bg img={imgs.bg}>
         <div>aaammm</div>
+        <Button text="text"/>
       </Bg>
     )
   }
